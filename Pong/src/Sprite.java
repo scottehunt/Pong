@@ -1,9 +1,11 @@
+import java.awt.Color;
 
 public class Sprite {
 
 	private int xPosition, yPosition;
 	private int xVelocity, yVelocity;
 	private int width, height;
+	private Color colour;
 	
 	public int getXPosition() { return xPosition; }
 	public int getYPosition() { return yPosition; }
@@ -11,6 +13,11 @@ public class Sprite {
 	public int getYVelocity() { return yVelocity; }
 	public int getWidth() { return width; }
 	public int getHeight() { return height; }
+	public Color getColour() { return colour; }
+	
+	public void setColour() { //need to suss out this one
+		
+	}
 	
 	private int initialXPosition, initialYPosition;
 	public void setInitialPosition(int initialX, int initialY) {

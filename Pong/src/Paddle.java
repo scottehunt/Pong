@@ -10,7 +10,7 @@ public class Paddle extends Sprite {
 	{
 		setWidth(PADDLE_WIDTH);
 		setHeight(PADDLE_HEIGHT);
-//		setColour(PADDLE_COLOUR);
+		setColour(PADDLE_COLOUR); //error here
 		int xPos;
 		if(player == Player.One) {
 			xPos = DISTANCE_FROM_EDGE;
