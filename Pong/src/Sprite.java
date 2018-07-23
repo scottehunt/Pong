@@ -15,8 +15,8 @@ public class Sprite {
 	public int getHeight() { return height; }
 	public Color getColour() { return colour; }
 	
-	public void setColour() { //need to suss out this one
-		
+	public void setColour(Color color) { //need to suss out this one
+		colour = color;
 	}
 	
 	private int initialXPosition, initialYPosition;
